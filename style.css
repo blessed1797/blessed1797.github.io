@@ -1,0 +1,158 @@
+body {margin: 0;}
+html{background-color: rgb(236, 236, 236);
+    font-size: 100%;
+
+}
+/*header*/
+
+.page {
+    background-color:#521751;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding:10px 0;
+     height: 40px;
+    color:white;
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    font-size: 2rem;
+    
+
+}
+.fixed {
+    height: 70px;
+    
+
+}
+a {text-decoration:none;
+  color:black;
+
+}
+a:active {
+    color: rgba(204, 19, 19, 0.274);
+}
+img:hover {
+    cursor:pointer;
+}
+
+
+
+/*nav*/
+.navigation {text-align: center;
+            padding: 0;
+}
+.navigation li {
+    display: inline-block;
+    width: 20%;
+    background-color: rgb(199, 204, 202);
+    font-size: 0.9rem;
+    font-size: 16px;
+}
+
+/*main*/ 
+
+.triptext {
+    
+    padding: 0;
+    display:flex;
+    
+    
+    
+}
+.triptext p {
+    background-color: #521751;
+    color: white;
+    margin: 0;
+    width: 50%;
+    text-align:center;
+    font-size: 1rem;
+    font-size: 16px;
+    
+}
+
+.tripimages {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tripimages img {
+    width: 50%;
+    height: 100%;
+    
+
+}
+.feedback {background-color:#521751;
+           text-align: center;
+           color: white;
+           margin: 0;
+           position: relative;
+           bottom: 18.4px;
+           font-size: 16px;
+           font-size: 1rem;
+           
+        }
+
+
+
+
+
+/*footer*/
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:  wrap;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10x;
+   
+    
+
+
+}
+
+.review img {
+    width: 120px;
+}
+
+.review p {
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    font-size: 1rem;
+    
+}
+
+@media {min-width: 400px;
+    .navigation li {
+        font-size: 1.2rem;
+        
+    }
+}
+
+
+
+
+
+@media {min-width: 700px;
+  
+.tripimages img {
+    height: 50%;
+}
+.triptext p {
+    background-color: #521751;
+    color: white;
+    margin: 0;
+    width: 50%;
+    text-align:center;
+    font-size: 1rem;
+    font-size: 16px;
+    
+}
+
+    
+}
+
+
